@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.conteudo {
+    background-color: var(--primary-color);
+    padding: 8rem 1rem 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .container {
+    text-align: center;
+}
+
+.barra-de-progresso {
+    margin-top: 1rem;
+}
+
+
+.container-progresso {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-progresso {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 30px;
+    max-width: 100%;
+    width: 350px;
+}
+
+.container-progresso::before {
+    content: '';
+    background-color: var(--botao-desativado);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 100%;
+}
+
+
+
+.progresso {
+    background-color: var(--secondary-color);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 0%;
+    transition: 0.4s ease;
+}
+
+.circulo {
+    background-color: #fff;
+    color: var(gray-color);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid var(--secondary-color);
+    transition: 0.4s ease;
+    z-index: 1;
+
+
+}
+
+.circle.active {
+    border-color: var(--secondary-color);
+
+}
+
+.botao-progresso {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    font-weight: 700;
+    border: 0;
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: .5rem 1rem;
+    margin: .5rem;
+    font-size: 1rem;
+}
+
+.botao-progresso:active {
+    transform: scale(0.98);
+}
+
+.botao-progresso:focus {
+    outline: 0;
+}
+
+.botao-progresso:disabled {
+    background-color: var(--botao-desativado);
+    cursor: not-allowed;
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.conteudo {
+    background-color: var(--primary-color);
+    padding: 8rem 1rem 4rem 1rem;
+}
+
+.bg {
+    background: url('https://images.pexels.com/photos/1194713/pexels-photo-1194713.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center/cover;
+    top: 0;
+    left: 0;
+    width: 32rem;
+    height: 32rem;
+    border-radius: 1rem;
+    box-shadow: 4px 4px 4px rgb(00, 00, 00, 0.1);
+    filter: blur(0px);
+}
+
+@media screen and (max-width: 900px) {
+    .bg {
+        width: 16rem;
+        height: 16rem;
+    }
+
+}
+
+.loading-text {
+    font-size: 3rem;
+    color: var(--white-color);
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}

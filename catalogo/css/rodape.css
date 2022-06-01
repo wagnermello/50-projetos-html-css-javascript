@@ -1,0 +1,73 @@
+.rodape {
+    background: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    padding: 4rem 2rem 4rem 2rem;
+}
+
+.rodape section div p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.botao {
+    color: var(--white-color);
+    background-color: var(--secondary-color);
+    border-radius: .5rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    font-weight: 700;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    width: auto;
+    text-align: center;
+
+}
+
+.botao:hover {
+    border-radius: .5rem;
+    box-shadow: 2px 8px 8px   rgba(0, 0, 0, 0.2) ;
+    transition: all 0.3s ease-in-out;  
+}
+
+
+
+.link__github div {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: auto;
+    
+    
+}
+
+.link__github div img {
+    display: flex;
+    flex-direction: flex-start;
+    align-items: center;
+    margin-right: .5rem;
+
+}
+
+.link__github a {    
+    font-weight: 700;
+    color: var(--black-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+
+
+
+

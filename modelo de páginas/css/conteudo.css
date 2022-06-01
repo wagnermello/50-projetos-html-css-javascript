@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.conteudo {
+    background-color: var(--primary-color);
+    padding: 8rem 1rem 4rem 1rem;
+}
