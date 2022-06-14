@@ -1,4 +1,4 @@
-<h1 align="center"> 50 Projetos em HTML, CSS e JavaScript</h1>
+<h1 align="center">Projetos em HTML, CSS e JavaScript</h1>
 
 <h1 align="center" ><img alt="HTML, CSS e JavaScript" src="https://3cthinkers.com/en/wp-content/uploads/2017/03/html-css-js.jpg" height="250" width="250"/></h1>
 
